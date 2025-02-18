@@ -8,6 +8,7 @@ import java.util.*;
 @Repository
 public class ProductRepository {
     private List<Product> productData = new ArrayList<>();
+    private int test;
 
     public Product create(Product product) {
         if (product.getProductId() == null) {

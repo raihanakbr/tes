@@ -4,6 +4,8 @@ import id.ac.ui.cs.advprog.eshop.model.Product;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Repository
 public class ProductRepository {
